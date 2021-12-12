@@ -6,7 +6,7 @@
 	<!-- Configure Spring MVC Dispatcher Servlet -->
 	<servlet>
 		<servlet-name>studentapp2</servlet-name>
-		<servlet-class>org.springframework.web.saervlet.DispatcherServlet</servlet-class>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/studentapp2-servlet.xml</param-value>
