@@ -13,7 +13,7 @@
 			
 			<h2><c:out value="${newStudent ? 'Add a new student' : 'Update student'}" /></h2>
 			
-			<form action="/studentapp/students/save" method="post">
+			<form action="/studentapp2/students/save" method="post">
 			  <div class="mb-3">
 			    <input type="hidden" class="form-control" name="id" value="${student.id}">
 			  </div>
@@ -32,7 +32,7 @@
 			  
 			  <button type="submit" class="btn btn-primary">Submit</button>
 			  
-			  <a href="/studentapp/students/list" class="btn btn-danger">Cancel</a>
+			  <a href="/studentapp2/students/list" class="btn btn-danger">Cancel</a>
 			</form>
 		</div>
 		
